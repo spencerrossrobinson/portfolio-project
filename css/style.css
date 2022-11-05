@@ -1,0 +1,14 @@
+/* body {
+    color: #87c38f
+} */
+footer .btn-social-icon {
+    background-color: transparent;
+    border: solid #87c38f;
+    color: #87c38f;
+}
+a {
+    color: #87c38f;
+}
+footer .btn-link {
+    color: #87c38f;
+}
