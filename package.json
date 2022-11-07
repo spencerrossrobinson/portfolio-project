@@ -4,15 +4,19 @@
   "description": "This is a website for the fictional campsites review site Nucamp",
   "main": "index.html",
   "scripts": {
+    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
     "scss": "sass css:css",
     "lite": "lite-server",
-    "start": "npm run lite",
+    "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Spencer Robinson",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1",
+    "onchange": "^7.0.0",
+    "parallelshell": "3.0.1",
     "sass": "^1.56.0"
   },
   "dependencies": {
