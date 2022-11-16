@@ -25,7 +25,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Sovereign.</a>
+      <a class="navbar-brand" href="index.html">Sovereign<span class="green-text">.</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sovNavbar"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -94,19 +94,19 @@
   <div class="container-fluid home-screen-carousel p-0 m-0">
     <div class="row">
       <div class="col">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselHome" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselHome" data-slide-to="1"></li>
+            <li data-target="#carouselHome" data-slide-to="2"></li>
+            <li data-target="#carouselHome" data-slide-to="3"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100" src="/img/vineyard6.webp" alt="First slide">
               <div class="carousel-caption text-left overlay">
                 <a href="about.html">
-                  <h1 class="px-3">About</h1>
+                  <h1 class="px-3" id="carouselAbout">About</h1>
                 </a>
                 <p class="px-3 d-none d-md-block">A little about us, wine and how our dream became a reality</p>
               </div>
@@ -115,7 +115,7 @@
               <img class="d-block w-100" src="/img/localfarm2.jpeg" alt="Second slide">
               <div class="carousel-caption text-left overlay">
                 <a href="menu.html">
-                  <h1 class="px-3">Local</h1>
+                  <h1 class="px-3" id="carouselLocal">Local</h1>
                 </a>
                 <p class="px-3 d-none d-md-block">Intentionally Sourced. Learn About Our Local Farmers</p>
               </div>
@@ -124,7 +124,7 @@
               <img class="d-block w-100" src="/img/wineclub.jpeg" alt="Third slide">
               <div class="carousel-caption text-left overlay">
                 <a href="event.html">
-                  <h1 class="px-3">Events</h1>
+                  <h1 class="px-3" id="carouselEvents">Events</h1>
                 </a>
                 <p class="px-3 d-none d-md-block">Find Out About Our Upcoming Events!</p>
               </div>
@@ -133,7 +133,7 @@
               <img class="d-block w-100" src="/img/cellar.jpeg" alt="Fourth slide">
               <div class="carousel-caption text-left overlay">
                 <a href="club.html">
-                  <h1 class="px-3">Wine Club</h1>
+                  <h1 class="px-3" id="carouselClub">Wine Club</h1>
                 </a>
                 <p class="px-3 d-none d-md-block">Join our Club! Exclusive Tastings, Bottle Offerings and Newsletter</p>
               </div>
@@ -142,17 +142,17 @@
               <img class="d-block w-100" src="/img/menu.jpeg" alt="Fifth slide">
               <div class="carousel-caption text-left overlay">
                 <a href="menu.html">
-                  <h1 class="px-3">Menu</h1>
+                  <h1 class="px-3" id="carouselMenu">Menu</h1>
                 </a>
                 <p class="px-3 d-none d-md-block">Wine by the Glass & Focused Small Plates</p>
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
@@ -197,9 +197,10 @@
           </ul>
         </div>
         <div class="col text-center">
-          <a href="tel:12065551234" role="button" class="btn btn-link">
+          <a href="tel:12065551234" role="button" class="btn btn-link" id="btnLinkPhone">
             <i class="fa fa-phone"></i> 6-666-666-6666</a><br />
-          <a href="mailto:campsites@nucamp.co" role="button" class="btn btn-link"><i class="fa fa-envelope-o"></i>
+          <a href="mailto:campsites@nucamp.co" role="button" class="btn btn-link" id="btnLinkEmail"><i
+              class="fa fa-envelope-o"></i>
             info@sovereign.com</a>
         </div>
       </div>

@@ -22,10 +22,10 @@
     <title>Sovereign. A Wine Joint</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body class="menu">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Sovereign.</a>
+            <a class="navbar-brand" href="index.html">Sovereign<span class="green-text">.</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sovNavbar"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,41 +55,99 @@
                         <div class="col-1">
                             <li class="nav-item">
                                 <a href="" class="nav-link">
-                                    <i class="fa fa-instagram"></i>
+                                    <i class="nav-social fa fa-instagram"></i>
                                 </a>
                             </li>
                         </div>
                         <div class="col-1">
                             <li class="nav-item">
                                 <a href="" class="nav-link">
-                                    <i class="fa fa-facebook"></i>
+                                    <i class="nav-social fa fa-facebook"></i>
                                 </a>
                             </li>
                         </div>
                         <div class="col-1">
                             <li class="nav-item">
                                 <a href="" class="nav-link">
-                                    <i class="fa fa-twitter"></i>
+                                    <i class="nav-social fa fa-twitter"></i>
                                 </a>
                             </li>
                         </div>
                         <div class="col-1">
                             <li class="nav-item">
                                 <a href="" class="nav-link">
-                                    <i class="fa fa-youtube"></i>
+                                    <i class="nav-social fa fa-youtube"></i>
                                 </a>
                             </li>
                         </div>
                     </div>
                 </ul>
-
-                <!-- <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form> -->
             </div>
         </div>
     </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-center display-6 menu-body py-5 mt-5">Our menus change frequently. Below are
+                    example
+                    menus to
+                    give you
+                    a
+                    better
+                    understanding of Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, numquam.
+                    Voluptatem
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="card menu-card text-center my-5">
+                    <div class="card-header">
+                        Rotating Seasonal Menu
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Small Plates</h5>
+                        <ul class="card-text list-unstyled">
+                            <li>Boquerones en vinagre // Lemon. Herbs. Aleppo. Foccacia</li>
+                            <li>Boquerones en vinagre // Lemon. Herbs. Aleppo. Foccacia</li>
+                            <li>Boquerones en vinagre // Lemon. Herbs. Aleppo. Foccacia</li>
+                            <li>Boquerones en vinagre // Lemon. Herbs. Aleppo. Foccacia</li>
+                            <li>Boquerones en vinagre // Lemon. Herbs. Aleppo. Foccacia</li>
+                            <li>Boquerones en vinagre // Lemon. Herbs. Aleppo. Foccacia</li>
+                            <li>Boquerones en vinagre // Lemon. Herbs. Aleppo. Foccacia</li>
+                            <li>Boquerones en vinagre // Lemon. Herbs. Aleppo. Foccacia</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer text-muted">
+                        sample menu
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card menu-card text-center my-5">
+                    <div class="card-header">
+                        Rotating Pours
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Wines by the Glass</h5>
+                        <ul class="card-text list-unstyled">
+                            <li>La Soula Trigone Rouge // Cherry. Leather. Earth. Pepper.</li>
+                            <li>La Soula Trigone Rouge // Cherry. Leather. Earth. Pepper.</li>
+                            <li>La Soula Trigone Rouge // Cherry. Leather. Earth. Pepper.</li>
+                            <li>La Soula Trigone Rouge // Cherry. Leather. Earth. Pepper.</li>
+                            <li>La Soula Trigone Rouge // Cherry. Leather. Earth. Pepper.</li>
+                            <li>La Soula Trigone Rouge // Cherry. Leather. Earth. Pepper.</li>
+                            <li>La Soula Trigone Rouge // Cherry. Leather. Earth. Pepper.</li>
+                            <li>La Soula Trigone Rouge // Cherry. Leather. Earth. Pepper.</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer text-muted">
+                        sample menu
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer class="site-footer bg-light">
         <div class="container">
             <div class="row">
@@ -126,10 +184,10 @@
                         <li>Sun: 12-6pm</li>
                     </ul>
                 </div>
-                <div class="col">
-                    <a href="tel:12065551234" role="button" class="btn btn-link">
+                <div class="col text-center">
+                    <a href="tel:12065551234" role="button" class="btn btn-link" id="btnLinkPhone">
                         <i class="fa fa-phone"></i> 6-666-666-6666</a><br />
-                    <a href="mailto:campsites@nucamp.co" role="button" class="btn btn-link"><i
+                    <a href="mailto:campsites@nucamp.co" role="button" class="btn btn-link" id="btnLinkEmail"><i
                             class="fa fa-envelope-o"></i>
                         info@sovereign.com</a>
                 </div>
