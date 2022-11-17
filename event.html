@@ -22,8 +22,8 @@
     <title>Sovereign. A Wine Joint</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body class="menu">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">Sovereign<span class="green-text">.</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sovNavbar"
@@ -82,15 +82,194 @@
                         </div>
                     </div>
                 </ul>
-
-
-                <!-- <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form> -->
             </div>
         </div>
     </nav>
+    <div class="jumbotron jumbotron-fluid about-jumbo about-jumbo-top m-0">
+        <div class="container text-light white-text my-5">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-center">Interested in an Event?</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-4 text-center">Send us your idea, we already love it</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sint
+                        nihil v.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-6 m-auto">
+                    <img src="/img/eventPic.jpeg" alt="" class="img-fluid event-pic">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container event my-5">
+        <br>
+        <div class="row align-items-center event-day my-5">
+            <div class="col-3 text-center">
+                <h1>Monday</h1>
+            </div>
+            <div class="col-6 text-center">
+                <h4>Tasting with Producers From Roussillon</h4>
+            </div>
+            <div class="col-3 text-center">
+                <button type="button" class="btn text-light">Tickets Available</button>
+            </div>
+        </div>
+        <div class="row align-items-center event-day my-5">
+            <div class="col-3 text-center">
+                <h1>Tuesday</h1>
+            </div>
+            <div class="col-6 text-center">
+                <h4>Corndogs // Pickles, Spicy Mustard</h4>
+            </div>
+            <div class="col-3 text-center">
+                <h5>No tickets needed</h5>
+            </div>
+        </div>
+        <div class="row align-items-center event-day my-5">
+            <div class="col-3 text-center">
+                <h1>Wednesday </h1>
+            </div>
+            <div class="col-6 text-center">
+                <h4>Masterclass on Chablis</h4>
+            </div>
+            <div class="col-3 text-center">
+                <button type="button" class="btn text-light">Tickets Available</button>
+            </div>
+        </div>
+        <div class="row align-items-center event-day my-5">
+            <div class="col-3 text-center">
+                <h1>Thursday</h1>
+            </div>
+            <div class="col-6 text-center">
+                <h4>Live Music on the Patio</h4>
+            </div>
+            <div class="col-3 text-center">
+                <h5>No tickets needed</h5>
+            </div>
+        </div>
+        <div class="row align-items-center event-day my-5">
+            <div class="col-3 text-center">
+                <h1>Friday</h1>
+            </div>
+            <div class="col-6 text-center">
+                <h4>A tapas journey through Rioja</h4>
+            </div>
+            <div class="col-3 text-center">
+                <button type="button" class="btn text-light">Tickets Available</button>
+            </div>
+        </div>
+        <div class="row align-items-center event-day">
+            <div class="col-3 text-center">
+                <h1>Saturday</h1>
+            </div>
+            <div class="col-6 text-center">
+                <h4>Sounds like Day Drinking</h4>
+            </div>
+            <div class="col-3 text-center">
+                <h5>No tickets needed</h5>
+            </div>
+        </div>
+        <div class="row align-items-center event-day my-5">
+            <div class="col-3 text-center">
+                <h1>Sunday</h1>
+            </div>
+            <div class="col-6 text-center">
+                <h4>Canary Islands: Whats the big deal?</h4>
+            </div>
+            <div class="col-3 text-center">
+                <button type="button" class="btn text-light">Tickets Available</button>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid about-jumbo m-0">
+        <div class="container text-light my-5 white-text">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-center">Interested in an Event?</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-4 text-center">Send us your idea, we already love it</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sint
+                        nihil v.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <button type="button" class="event-btn btn btn-lg text-light font-weight-bold" data-toggle="modal"
+                        data-target="#eventForm">Event Inquiry</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="eventForm" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Tell Us About Your Event</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormName">Name</label>
+                                <input type="text" class="form-control" id="exampleFormName" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormOccasion">Occasion</label>
+                                <input type="text" class="form-control" id="exampleForOccasion"
+                                    placeholder="Enter Occasion">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormBusiness">Business</label>
+                                <input type="text" class="form-control" id="exampleForBusiness"
+                                    placeholder="Enter Business">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Description of Event</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="numPeople">Estimated People</label>
+                                <select class="form-control" name="numPeople" id="numPeople">
+                                    <option value="" disabled selected>Select...</option>
+                                    <option value="threeBottles"> 0-10 People</option>
+                                    <option value="halfCase">10- 20 People</option>
+                                    <option value="fullCase">20-30 People</option>
+                                    <option value="fullCase">50+ People</option>
+                                    <option value="fullCase">100+ People</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-warning">Submit</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer class="site-footer bg-light">
         <div class="container">
             <div class="row">

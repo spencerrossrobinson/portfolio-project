@@ -78,8 +78,6 @@ box-shadow: 0 10px 20px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.06);
   color: white;
 }
 .image-background {
-  height: 100vh;
-  min-height: 500px;
   background-image: url("/img/soula.jpeg");
   background-size: cover;
   background-position: center;
@@ -98,11 +96,11 @@ box-shadow: 0 10px 20px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.06);
   height: fit-content;
   background-color: $primary-color;
   opacity: 0.9;
-  border-radius: 5%;
+  border-radius: 2%;
   box-shadow: 0 10px 20px rgba(0,0,0,.4), 0 4px 8px rgba(0,0,0,.1);
 }
-.menu, .club, .about-bio {
-  background-color: rgba($color: #87c38f, $alpha: 0.4);
+.menu, .club, .about-jumbo-1 {
+  background-color: rgba($color: #87c38f, $alpha: 0.5);
 }
 
 /* Media q for sizing home page carousel */
@@ -186,6 +184,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.06);
   height: 250px;
 }
 .main-card{
+  border-radius: 5%;
   overflow: auto;
   box-shadow: 0 6px 10px rgba(0,0,0,.15), 0 0 6px rgba(0,0,0,.05);
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
@@ -232,12 +231,20 @@ box-shadow: 0 10px 20px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.06);
 #btnWineClub, #btnWineClub2 {
   background-color: $primary-color;
   border: solid 3px white;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+#btnWineClub:hover {
+  transform: scale(1.07);
+  box-shadow: 0 10px 20px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.06);
+}
+#btnWineClub2:hover {
+  transform: scale(1.07);
+  box-shadow: 0 10px 20px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.06);
 }
 
 // about jumbotron
-.about-jumbo {
+.about-jumbo, .about-bio {
   background-color: $primary-color;
-  color: white;
 }
 .about-head-left {
 margin-top: 8%;
@@ -254,4 +261,45 @@ width: 150px;
   height: 80%;
   border-radius: 4%;
 
+}
+.mission-text {
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.mission-text:hover {
+  transform: scale(1.07);
+  box-shadow: 0 10px 20px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.06);
+}
+
+//event calendar 
+.event-day {
+h4{
+  border-right: 2px solid $primary-color;
+  border-left: 2px solid $primary-color;
+}
+.btn {
+  background-color: $primary-color;
+  border: solid 3px white;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 10px 20px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.06);
+}
+border-bottom: 2px $primary-color ridge;
+min-height: 150px;
+}
+.event-btn {
+  border: solid 2px white;
+}
+.white-text {
+  text-shadow: 2px 2px 8px rgba(0,0,0,.3);
+}
+.about-jumbo-top {
+  height: 500px;
+}
+.event-pic {
+  border-radius: 10%;
+}
+.modal-header {
+  background-color: $primary-color;
 }

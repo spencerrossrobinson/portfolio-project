@@ -86,8 +86,6 @@ footer .btn-link {
 }
 
 .image-background {
-  height: 100vh;
-  min-height: 500px;
   background-image: url("/img/soula.jpeg");
   background-size: cover;
   background-position: center;
@@ -108,12 +106,12 @@ footer .btn-link {
   height: fit-content;
   background-color: #87c38f;
   opacity: 0.9;
-  border-radius: 5%;
+  border-radius: 2%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.menu, .club, .about-bio {
-  background-color: rgba(135, 195, 143, 0.4);
+.menu, .club, .about-jumbo-1 {
+  background-color: rgba(135, 195, 143, 0.5);
 }
 
 /* Media q for sizing home page carousel */
@@ -196,6 +194,7 @@ footer {
 }
 
 .main-card {
+  border-radius: 5%;
   overflow: auto;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15), 0 0 6px rgba(0, 0, 0, 0.05);
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
@@ -248,11 +247,21 @@ footer {
 #btnWineClub, #btnWineClub2 {
   background-color: #87c38f;
   border: solid 3px white;
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
 }
 
-.about-jumbo {
+#btnWineClub:hover {
+  transform: scale(1.07);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+#btnWineClub2:hover {
+  transform: scale(1.07);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.about-jumbo, .about-bio {
   background-color: #87c38f;
-  color: white;
 }
 
 .about-head-left {
@@ -270,6 +279,53 @@ footer {
   margin-top: 5%;
   height: 80%;
   border-radius: 4%;
+}
+
+.mission-text {
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+
+.mission-text:hover {
+  transform: scale(1.07);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.event-day {
+  border-bottom: 2px #87c38f ridge;
+  min-height: 150px;
+}
+.event-day h4 {
+  border-right: 2px solid #87c38f;
+  border-left: 2px solid #87c38f;
+}
+.event-day .btn {
+  background-color: #87c38f;
+  border: solid 3px white;
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+.event-day .btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.event-btn {
+  border: solid 2px white;
+}
+
+.white-text {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.about-jumbo-top {
+  height: 500px;
+}
+
+.event-pic {
+  border-radius: 10%;
+}
+
+.modal-header {
+  background-color: #87c38f;
 }
 
 /*# sourceMappingURL=style.css.map */
